@@ -13,7 +13,7 @@ public final class Euclid {
     }
 
 //TODO: Fix all code issues
-    public static int euclidAlgorithm(int a ,  int b) {
+    public static int euclidAlgorithm(int a, int b) {
         if (a == 0) {
             return b;
         } else {
