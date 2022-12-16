@@ -12,8 +12,8 @@ public final class Euclid {
         // System.out.println(euclidAlgorithm(a, b));
     }
 
-//TODO: Fix all code issues
-    public static int euclidAlgorithm(int a ,  int b) {
+//Fix all code issues
+    public static int euclidAlgorithm(int a, int b) {
         if (0 == a) {
             return b;
         } else {
@@ -24,7 +24,7 @@ public final class Euclid {
                     b = b - a;
                 }
             }
-            return 0;
+            return b;
         }
     }
 }
