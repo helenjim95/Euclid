@@ -12,19 +12,20 @@ public final class Euclid {
         // System.out.println(euclidAlgorithm(a, b));
     }
 
-//Fix all code issues
-    public static int euclidAlgorithm(int a, int b) {
+//TODO: Fix all code issues
+    public static int euclidAlgorithm(int a ,  int B) {
+        var x = 77;
         if (0 == a) {
-            return b;
+            return B;
         } else {
-            while (b != 0) {
-                if (a > b) {
-                    a = a - b;
+            while (B != 0) {
+                if (a > B) {
+                    a = a - B;
                 } else {
-                    b = b - a;
+                    B = B - a;
                 }
             }
-            return b;
+            return 0;
         }
     }
 }
