@@ -1,7 +1,5 @@
 package de.tum.in.ase;
 
-import java.util.Random;
-
 public final class Euclid {
     
     private Euclid() {
@@ -15,18 +13,18 @@ public final class Euclid {
     }
 
 //TODO: Fix all code issues
-public static int euclidAlgorithm(int a ,  int B){
-
-        var x = 77;
-
-        if (0 == a) return B;
-
-        else {
-            while(B != 0) {
-                if (a>B) { a = a - B; }
-                else {
-                    B = B -a;  }
+    public static int euclidAlgorithm(int a ,  int b) {
+        if (0 == a) {
+            return b;
+        } else {
+            while (b != 0) {
+                if (a > b) {
+                    a = a - b;
+                } else {
+                    b = b - a;
                 }
-
-            return 0 ;
-    }}}
+            }
+            return 0;
+        }
+    }
+}
