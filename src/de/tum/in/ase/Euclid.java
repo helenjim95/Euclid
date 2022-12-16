@@ -13,16 +13,15 @@ public final class Euclid {
     }
 
 //TODO: Fix all code issues
-    public static int euclidAlgorithm(int a ,  int B) {
-        var x = 77;
+    public static int euclidAlgorithm(int a ,  int b) {
         if (0 == a) {
-            return B;
+            return b;
         } else {
-            while (B != 0) {
-                if (a > B) {
-                    a = a - B;
+            while (b != 0) {
+                if (a > b) {
+                    a = a - b;
                 } else {
-                    B = B - a;
+                    b = b - a;
                 }
             }
             return 0;
