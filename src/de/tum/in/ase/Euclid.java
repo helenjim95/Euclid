@@ -14,7 +14,7 @@ public final class Euclid {
 
 //TODO: Fix all code issues
     public static int euclidAlgorithm(int a ,  int b) {
-        if (0 == a) {
+        if (a == 0) {
             return b;
         } else {
             while (b != 0) {
@@ -24,7 +24,7 @@ public final class Euclid {
                     b = b - a;
                 }
             }
-            return 0;
+            return a;
         }
     }
 }
